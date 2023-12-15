@@ -1,0 +1,95 @@
+/* Общие стили */
+.vh-100 {
+  min-height: 100vh;
+}
+
+.w-400 {
+  width: 400px;
+}
+
+.fs-xs {
+  font-size: 1rem;
+}
+
+.w-10 {
+  width: 10%;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Больший размер шрифта */
+.fs-big {
+  font-size: 3rem !important;
+}
+
+/* Статус "онлайн" */
+.online {
+  width: 12px;
+  height: 12px;
+  background: green;
+  border-radius: 50%;
+}
+
+.w-15 {
+  width: 15%;
+}
+
+.fs-sm {
+  font-size: 1.2rem;
+}
+
+small {
+  color: #555;
+  /* Цвет изменен для лучшей видимости */
+  font-size: 0.8rem;
+  text-align: right;
+}
+
+/* Стили для блока чата */
+.chat-box {
+  overflow-y: auto;
+  overflow-x: hidden;
+  max-height: 60vh;
+  /* Увеличено для лучшего использования пространства */
+}
+
+.rtext {
+  width: 70%;
+  /* Немного увеличено */
+  background: #f8f9fa;
+  color: #555;
+  /* Цвет изменен для лучшей видимости */
+}
+
+.ltext {
+  width: 70%;
+  background: #c832bb;
+  color: #fff;
+}
+
+*::-webkit-scrollbar {
+  width: 6px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: #aaa;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background: #c83298;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.message_status {
+  font-style: italic;
+  color: #888;
+}
